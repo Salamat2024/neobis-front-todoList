@@ -1,18 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="title">
+            <h2 class="title__question">What's up,</h2> <input type="text" placeholder="Name here" id="name">
+        </div>
+        <div class="list">
+            <h4 class="create">CREATE A TODO</h4>
+            <p class="question">What's on your todo list?</p>
+            <input type="text" placeholder="e.g.get a milk" id="create-list">
+        </div>
 
+        <div class="category__subtitle">
+            <p class="pick">Pick a category</p>
+        </div>
+        <div class="category__wrapper">
+            <div class="category business">
+                <div class="input__wrapper">
+                <input type="radio" id="radio"/>
+                <p class="radio__text">Business</p>
+            </div>
+        </div>
+            <div class="category personal">
+                
+                <div class="input__wrapper">
+                <input type="radio" id="radio"/>
+                <p class="radio__text">Personal</p>
+            </div>
+        </div>
+        </div>
+        
 
+        <div class="button">
+            <button class="btn">Add todo</button>
+        </div>
 
+        <h4 class="create">TODO</h4>
 
+    </div>
 
     <script src="./script.js"></script>
 </body>
+
 </html>
